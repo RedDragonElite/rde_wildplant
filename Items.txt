@@ -1,0 +1,139 @@
+-- Add these items to your ox_inventory/data/items.lua
+-- Seeds
+['weed_seed_indica'] = {
+    label = 'Indica Seeds',
+    weight = 10,
+    stack = true,
+    close = true,
+    description = 'High-quality Indica cannabis seeds. Known for relaxing effects.',
+    client = {
+        image = 'weed_seed_indica.png',
+        event = 'plants:plantSeed',
+        export = 'plants.plantSeed',
+        eventData = 'indica'
+    }
+},
+['weed_seed_sativa'] = {
+    label = 'Sativa Seeds',
+    weight = 10,
+    stack = true,
+    close = true,
+    description = 'High-quality Sativa cannabis seeds. Known for energizing effects.',
+    client = {
+        image = 'weed_seed_sativa.png',
+        event = 'plants:plantSeed',
+        export = 'plants.plantSeed',
+        eventData = 'sativa'
+    }
+},
+['weed_seed_hybrid'] = {
+    label = 'Hybrid Seeds',
+    weight = 10,
+    stack = true,
+    close = true,
+    description = 'Premium hybrid cannabis seeds. The best of both worlds.',
+    client = {
+        image = 'weed_seed_hybrid.png',
+        event = 'plants:plantSeed',
+        export = 'plants.plantSeed',
+        eventData = 'hybrid'
+    }
+},
+-- Harvested Products
+['weed_indica'] = {
+    label = 'Indica Cannabis',
+    weight = 50,
+    stack = true,
+    close = true,
+    description = 'Harvested Indica cannabis buds.',
+    client = {
+        image = 'weed_indica.png'
+    }
+},
+['weed_sativa'] = {
+    label = 'Sativa Cannabis',
+    weight = 50,
+    stack = true,
+    close = true,
+    description = 'Harvested Sativa cannabis buds.',
+    client = {
+        image = 'weed_sativa.png'
+    }
+},
+['weed_hybrid'] = {
+    label = 'Hybrid Cannabis',
+    weight = 50,
+    stack = true,
+    close = true,
+    description = 'Harvested hybrid cannabis buds.',
+    client = {
+        image = 'weed_hybrid.png'
+    }
+},
+-- Tools and Care Items
+['trimming_scissors'] = {
+    label = 'Trimming Scissors',
+    weight = 250,
+    stack = false,
+    close = true,
+    description = 'Professional scissors for harvesting and trimming cannabis.',
+    durability = 100,
+    client = {
+        image = 'trimming_scissors.png'
+    }
+},
+['water_bottle'] = {
+    label = 'Water Bottle',
+    weight = 500,
+    stack = true,
+    close = true,
+    description = 'A bottle of water for watering your plants.',
+    client = {
+        image = 'water_bottle.png'
+    }
+},
+['fertilizer'] = {
+    label = 'Premium Fertilizer',
+    weight = 200,
+    stack = true,
+    close = true,
+    description = 'High-quality fertilizer for faster growth and better quality.',
+    client = {
+        image = 'fertilizer.png'
+    }
+},
+['pesticide'] = {
+    label = 'Pesticide',
+    weight = 150,
+    stack = true,
+    close = true,
+    description = 'Treats plant diseases and improves plant health.',
+    client = {
+        image = 'pesticide.png'
+    }
+},
+['insecticide'] = {
+    label = 'Insecticide',
+    weight = 150,
+    stack = true,
+    close = true,
+    description = 'Removes pests from your plants.',
+    client = {
+        image = 'insecticide.png'
+    }
+},
+-- Optional: Grow Equipment Starter Pack
+['grow_starter_pack'] = {
+    label = 'Grow Starter Pack',
+    weight = 1000,
+    stack = false,
+    close = true,
+    description = 'Contains everything you need to start growing.',
+    client = {
+        image = 'grow_starter_pack.png',
+        usetime = 2500
+    },
+    server = {
+        export = 'plants.openStarterPack'
+    }
+}
