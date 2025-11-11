@@ -23,14 +23,13 @@ shared_scripts {
 
 -- 💻 Client
 client_scripts {
-    'client/main.lua'
+    'client.lua'
 }
 
 -- 🖥️ Server
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
-    'server/main.lua',
-    'server/test_commands.lua' -- Nur bei Config.Debug = true aktiv
+    'server.lua'
 }
 
 -- 📋 Exports (für andere Scripts)
