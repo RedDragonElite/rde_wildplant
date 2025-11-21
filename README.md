@@ -43,7 +43,7 @@ https://youtu.be/2vJVCgRXoyI?si=ylMRNdCcHzEkG3iA
 
 ## 📋 Requirements
 
-- [ox_core v3](https://github.com/overextended/ox_core)
+- [ox_core](https://github.com/overextended/ox_core)
 - [ox_lib](https://github.com/overextended/ox_lib)
 - [ox_inventory](https://github.com/overextended/ox_inventory)
 - [ox_target](https://github.com/overextended/ox_target)
