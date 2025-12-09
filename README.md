@@ -1,23 +1,13 @@
 # 🌱 [FREE] RDE Wild Plants - Advanced Plant Growing System for ox_core
-
-**A highly optimized and feature-rich plant growing system with real-time synchronization, weather effects, and quality system.**
-
----
+A highly optimized and feature-rich plant growing system with real-time synchronization, weather effects, and quality system.
 
 ## 📸 Preview
-
 https://youtu.be/2vJVCgRXoyI?si=ylMRNdCcHzEkG3iA
 
----
-
 ## 📸 Screenshots
-![wildplants1|690x388](upload://jow1h47bxp5mtuyEAEySEnkUUKD.jpeg)
-![wildplants2|690x388](upload://9maHla5KmBVutZNuADFvvnE6SxB.jpeg)
-
----
+wildplants1|690x388 wildplants2|690x388
 
 ## ✨ Features
-
 - 🌿 **4-Stage Growth System** - Seedling → Young Plant → Flowering → Ready to Harvest
 - 🌦️ **Dynamic Weather Effects** - Rain speeds up growth, thunderstorms slow it down
 - 📊 **Quality System** - Each plant has unique quality affecting harvest yield
@@ -30,29 +20,20 @@ https://youtu.be/2vJVCgRXoyI?si=ylMRNdCcHzEkG3iA
 - ⚡ **Performance Optimized** - Efficient rendering and database operations
 - 🎲 **Random Events** - 5% plant failure chance adds realism
 
----
-
 ## 🎮 How It Works
-
 1. **Planting**: Use a seed item, plant grows through 4 stages (~45 minutes total)
 2. **Weather Impact**: Rain = 20% faster growth, Thunder = 20% slower
 3. **Harvesting**: Use harvest tool when plant reaches stage 4
 4. **Rewards**: Get 25-75 items based on quality + 30% chance for bonus seed
 
----
-
 ## 📋 Requirements
-
-- [ox_core](https://github.com/overextended/ox_core)
-- [ox_lib](https://github.com/overextended/ox_lib)
-- [ox_inventory](https://github.com/overextended/ox_inventory)
-- [ox_target](https://github.com/overextended/ox_target)
-- [oxmysql](https://github.com/overextended/oxmysql)
-
----
+- ox_core
+- ox_lib
+- ox_inventory
+- ox_target
+- oxmysql
 
 ## 📦 Installation
-
 1. Download and extract to your resources folder
 2. Add `ensure rde_wildplants` to your server.cfg (after ox dependencies)
 3. Add the following items to your `ox_inventory/data/items.lua`:
@@ -85,10 +66,7 @@ https://youtu.be/2vJVCgRXoyI?si=ylMRNdCcHzEkG3iA
 
 4. Configure admin permissions in `config.lua`
 5. Restart your server
-
-**Database table is created automatically!**
-
----
+6. Database table is created automatically!
 
 ## 🎯 Configuration Highlights
 
@@ -110,82 +88,55 @@ https://youtu.be/2vJVCgRXoyI?si=ylMRNdCcHzEkG3iA
 - Modified by weather bonus
 - 30% chance for bonus seed
 
-All configurable in `config.lua`!
-
----
+*All configurable in config.lua!*
 
 ## 🎬 Video Preview
-
 https://youtu.be/2vJVCgRXoyI?si=ylMRNdCcHzEkG3iA
 
----
-
 ## 🔧 Admin Commands
-
-```
-/deleteplants    - Delete all plants (admin only)
-/countplants     - Show active plant count
-/debugplants     - Client debug info
-/debugplantsserver - Server debug info
-```
-
----
+- `/deleteplants` - Delete all plants (admin only)
+- `/countplants` - Show active plant count
+- `/debugplants` - Client debug info
+- `/debugplantsserver` - Server debug info
 
 ## 💬 Support
-
 For support, bug reports, or feature requests, please open an issue on GitHub or contact me via:
 - Forum DM
 
----
-
 ## 📜 Changelog
-
-**v1.0.0** - Initial Release
+**v1.0.0 - Initial Release**
 - Complete growing system with 4 stages
 - Weather integration
 - Quality system
 - Triple sync for perfect multiplayer support
 - Multi-language support (EN/DE)
 
----
-
 ## 🙏 Credits
-
 - **Framework**: ox_core by Overextended
 - **Libraries**: ox_lib, ox_inventory, ox_target
 - **Development**: RDE Development
 
----
-
 ## 📥 Download
-
 **GitHub**: https://github.com/RedDragonElite/rde_wildplant
 
 **Installation difficulty**: ⭐⭐☆☆☆ (Easy - plug and play)
 
----
-
-# Resource Information (Required)
+## Resource Information (Required)
 
 | Category | Details |
 |----------|---------|
-| **Code is accessible** | Yes (Open Source) |
-| **Subscription-based** | No (Free Forever) |
-| **Lines (approximately)** | ~800 lines |
-| **Requirements** | ox_core v3, ox_lib, ox_inventory, ox_target, oxmysql |
-| **Support** | Yes (GitHub Issues + Forum) |
-
----
+| Code is accessible | Yes (Open Source) |
+| Subscription-based | No (Free Forever) |
+| Lines (approximately) | ~800 lines |
+| Requirements | ox_core, ox_lib, ox_inventory, ox_target, oxmysql |
+| Support | Yes (GitHub Issues + Forum) |
 
 ## 🎯 Why Choose This Script?
-
 ✅ **Completely Free** - No hidden costs, no subscriptions  
 ✅ **Production Ready** - Tested and optimized  
 ✅ **Well Documented** - Full README included  
 ✅ **Active Support** - I respond to issues and suggestions  
-✅ **Open Source** - Learn from it, modify it, make it yours  
-
----
+✅ **Open Source** - Learn from it, modify it, make it yours
 
 *If you like this resource, please consider leaving a ⭐ on GitHub and a positive review here!*
 
