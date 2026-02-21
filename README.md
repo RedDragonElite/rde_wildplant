@@ -16,6 +16,7 @@ Built on ox_core · ox_lib · ox_inventory · ox_target · oxmysql
 </div>
 
 ---
+![RDE_WildPlants_Logo](https://github.com/user-attachments/assets/6d41e1f2-8ec2-4b8f-ab91-b54b4c4d3d6a)
 
 ## 📖 Table of Contents
 
